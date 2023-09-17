@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #ff0066;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    line-height: 60px;
+}
+.signup-btn
+{
+    font-weight: 600 !important;
+    margin: 5px 30px;
+}
+.signup-btn:hover
+{
+    color: #ff0066 !important;
+    background-color: #fff !important;
+}
+/* navbar */
+nav #left-sec{
+    text-align: right;
+}
+nav #right-sec img{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.navbar-brand{
+    color: #ff0066 !important;
+    font-weight: 500;
+    font-size: 26px !important;
+    margin-top: 20px;
+}
+/* Login button */
+#left-sec .btn-outline-danger
+{
+    border-color: #ff0066;
+    color: #ff0066;
+    font-weight: 500;
+    width: 80px;
+    height: 35px;
+}
+#left-sec .btn-outline-danger:hover
+{
+    background-color: #f8b3ce52;
+    width: 85px;
+    height: 40px;
+}
+/* Signup button */
+#left-sec .btn-danger
+{
+    border-color: #ff0066;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    width: 80px;
+    height: 35px;
+}
+#left-sec .btn-danger:hover{
+    width: 85px;
+    height: 40px;
+}
+
+.dropdown #en-logo{
+    width: 25px;
+    height: 28px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+}
+.dropdown #arrow-logo{
+    width: 30px;
+    height: 15px;
+}
+#bag-logo{
+    width: 32px;
+    height: 28px;
+}
+
+#main-text{
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* DROPDOWN */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the button that triggers the dropdown */
+.dropdown-button {
+    background-color: #ffffff;
+    color: #000;    
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ecebeb;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* Style for the dropdown links */
+.dropdown-content{
+    width: 70px;
+    height: 60px;
+    background-color: #fff;
+   
+}
+.dropdown-content a {
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+}
+
+/* Change color on hover */
+.dropdown-content:hover {
+    background-color: hsla(326, 94%, 94%, 0.444);
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.gray-shadow-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+}
+/* SECTION 1 */
+.s-one{
+    background-color: #f1f1f2;
+    height: 400px;
+    display :flex;
+    flex-direction: row;
+    align-items: center;
+}
+#left-sec
+{
+    width: 60%;
+    float: left;
+    margin-left: 70px;
+}
+#sec-para
+{
+    font-weight: 400;
+}
+#box
+{
+    height: 70px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-round{
+    border: 1px solid rgba(0, 0, 0, 0.209);
+    border-radius: 5px;
+    height: 50px;
+    width: 80%;
+    margin-right: 15px;
+    padding: 0px 15px;
+    
+}
+.find{
+    background-color: #ff0066;
+    border:  5px solid #ff0066;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px;
+    font-weight: 500;
+}
+.find:hover{
+    padding: 10px;
+    background-color: #e1055d;
+    border:  5px solid #e1055d;
+}
+
+#right-sec
+{
+    width: 35%;
+    float: right;
+}
+#right-sec img{
+    width: 100%;
+    margin-top: 5%;
+    background-size: cover;
+}
+
+/* SECTION 2 */
+.s-two
+{
+    width: 100%;
+    height: 560px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+.sec2-head{
+    position: relative;
+    left: 150px;
+    font-weight: 400;
+    font-size: 26px;
+}
+.s-two img{
+    height: 300px;
+    width: 100%;
+    
+}
+#chef-box
+{
+    width: 550px;
+    height: 320px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.209);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    position: relative;
+    top: -160px; 
+    z-index: 2;
+    background-color: #fff;
+    left: 150px;
+}
+#chef-heading{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* SECTION 3 */
+
+.section3, .section4
+{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+.row1, .row2, .row3, .row4, .row5, .row6, .row7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px; 
+}
+.box1, .box2, .box3, .box4{
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative; /* Create a positioning context for the child elements */
+    display: inline-block;
+}
+.section3 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.section3 img:hover{
+    transform: scale(1.1);
+}
+.section3 .image-button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* SECTION 4 */
+.section4
+{
+    width: 80%;
+    height: 400px;
+}
+.sec4-head{
+    font-weight: 400;
+    font-size: 26px;
+    margin-top: 60px;
+}
+.section4-box{
+    color: #fff;
+    background-color: #ff0066;
+    height: 300px;
+    border-radius: 10px;
+    padding: 40px 25px 25px 40px;
+    display: flex;
+}
+.section4-leftside{
+    width: 40%;
+}
+.section4-box-text{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+.qr-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+}
+.qr-text
+{
+    font-size: 14px;
+}
+.section4-box-icons{
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 30px;
+    
+}
+.section4-box-icons img{
+    margin-right: 10px;
+    border: 1px solid #efeeee98;
+    border-radius: 4px;
+}
+.section4-rightside{
+    display: flex;
+    top: 500;
+    right: 200;
+    background-color: aqua;
+    overflow: visible; /* Set the overflow property to visible */
+    position: relative;
+    
+}
+.section4-rightside img{
+    height: 450px;
+    width: 500px;
+    position: absolute; 
+    top: -120px; 
+    left: 100px; 
+}
+/* SECTION 5 */
+#section5_box
+{
+    width: 550px;
+    height: 220px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.209);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    position: relative;
+    top: -110px; 
+    z-index: 2;
+    background-color: #fff;
+    left: 150px;
+}
+
+/* SECTION 6 */
+.section6
+{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+.sec6-h1{
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.section6 h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.section6 h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.section6 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.section6 li{
+    font-weight: lighter;
+}
+.section6 a{
+    text-decoration: none;
+    color: #ff0066;
+}
+.section6 #last-para{
+    margin-bottom: 140px;
+}
+.section6 hr{
+    color: grey;
+}
+/*------- Footer -----------*/
+footer
+{
+    width: 100%;
+    height: auto;
+    font-weight: lighter;
+}
+footer .sec-1{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+footer img{
+    width: 45px;
+    height: 40px;
+}
+#logo-heading{
+    color: rgb(215, 214, 214);
+    font-weight: 500; 
+}
+footer .icons{
+   margin-left: 730px;
+}
+footer .icons img{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* -------footer section 2 ------- */
+footer .sec-2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .f-s-1,.f-s-2, .f-s-3, .f-s-4 {
+    padding: 20px;
+    width: 25%;
+}
+footer .sec-2 a{
+    font-weight: lighter;
+    color: #000;
+    padding-bottom: 20px;
+}
+footer .sec-2 a:hover{
+    color: #ff0066;
+}
+footer .section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer .section3 a{
+    color: #8c8b8b;
+    padding-right: 10px;
+    padding-left: 10px; 
+    margin-bottom: 50px;   
+}
+footer .section3 a:hover{
+    color: #ff0066;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/auth.css">
+   
+
+    <title>Authentication Form</title>  
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <div id="right-sec">
+            <img src="../images/header_logo.PNG" alt="">
+            <a class="navbar-brand" href="../index.html">foodpanda</a>
+          </div>
+          <div id="left-sec">
+            <div class="dropdown">
+              <button class="dropdown-button"><img src="../images/icons-images/en_logo.PNG" alt="" id="en-logo">
+               EN <img src="../images/icons-images/arrow_logo.PNG" alt="" id="arrow-logo"></button>
+              <div class="dropdown-content">
+                <a href="#">English</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Box -->
+    <div class="container">
+       <h1>Welcome!</h1>
+       <p>Sign up or log in to continue</p>
+      <a href="https://www.facebook.com/">
+        <button class="btn btn-primary" id="facebook-button><i class="fab fa-facebook-f"></i>Continue with Facebook</button>
+      </a>
+      <a href="https://www.google.com/">
+        <button class="btn btn-outline-dark"><i class="fa fa-google"></i>Continue with Google</button>
+      </a>
+      <a href="https://appleid.apple.com/auth/authorize?client_id=com.global.foodpanda.service&redirect
+        _uri=https%3A%2F%2Fwww.foodpanda.pk%2Flogin%2Fnew&response_type=code%20id_token&scope=name%20emai
+        l&response_mode=web_message&frame_id=2ea04810-2895-45fb-af45-91e8395f3fc0&m=11&v=1.5.5">
+       <button class="btn btn-dark">Continue with Apple</button>
+      </a>
+       <p id="or">or</p>
+      <a href="https://www.foodpanda.pk/login/new?step=email">
+        <button class="btn btn-danger">Log in</button>
+      </a>
+      <a href="https://www.foodpanda.pk/login/new?step=email">
+        <button class="btn btn-outline-danger">Sign up</button>
+      </a>
+       <p id="last-para">By signing up, you agree to our <a href="./terms&conditions.html">Terms and Conditions</a> and <a href="./privacyPolicy.html">Privacy Policy</a>.</p>
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>

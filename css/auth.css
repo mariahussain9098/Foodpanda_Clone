@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    overflow: hidden;
+}
+  
+body{
+    background-color: #f1f1f2;
+}
+
+/* Navbar */
+
+.container
+{
+    width: 32%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 2px;
+    padding: 30px;
+    box-shadow: 1px -5px 8px #d7d5d4fe;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btn{
+    width: 100%;
+    margin-top: 20px;
+}
+ #or{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
+    /* line-height: 30px; */
+}
+#last-para{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+.btn-primary{
+    border: none;
+    font-weight: 400;
+}
+.btn-primary:hover{
+    background-color: rgba(4, 112, 206, 0.827);
+    border: none;
+}
+.btn-outline-dark
+{
+    font-weight: 450;
+}
+.btn-outline-dark:hover{
+    background-color:  rgba(229, 241, 246, 0.547);
+    border-color: rgba(179, 200, 207, 0.776);
+    color: #000;
+}
+
+.btn-danger{
+    background-color: #ff0066;
+    font-weight: 500;
+}
+.btn-danger:hover{
+    background-color: #b4044a;
+}
+.btn-outline-danger{
+    border: 1px solid #ff0066;
+    font-weight: 500;
+}
+.btn-outline-danger:hover{
+    border: none;
+    background-color: #faa8c921;
+    color: #ff0066;
+}
+
+#facebook-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  #facebook-button i {
+    font-size: 24px;
+    color: white; /* Facebook blue color */
+  }
+p a{
+    color: #ff0066;
+    text-decoration: none;
+}
+p a:hover{
+    color: #d50558;
+    text-decoration: none;
+}
